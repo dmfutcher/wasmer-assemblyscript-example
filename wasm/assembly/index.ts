@@ -1,5 +1,10 @@
 // The entry file of your WebAssembly module.
 
-export function add_one(a: i32): i32 {
-  return a + 1;
+// Import our host-exposed `log` function
+import { log } from './host';
+
+// Export a `start()` function, which our Rust/Wasmer host calls
+export function start(): i32 {
+  log("Hello, World!");
+  return 0;
 }

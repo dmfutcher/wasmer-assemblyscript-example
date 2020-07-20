@@ -437,13 +437,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "project-soyuz"
-version = "0.1.0"
-dependencies = [
- "wasmer-runtime",
-]
-
-[[package]]
 name = "quote"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -632,6 +625,13 @@ name = "void"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
+
+[[package]]
+name = "wasmer-assemblyscript-example"
+version = "0.1.0"
+dependencies = [
+ "wasmer-runtime",
+]
 
 [[package]]
 name = "wasmer-clif-backend"

@@ -1,5 +1,5 @@
 [package]
-name = "project-soyuz"
+name = "wasmer-assemblyscript-example"
 version = "0.1.0"
 authors = ["David Futcher <david@futcher.io>"]
 edition = "2018"
